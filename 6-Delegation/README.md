@@ -3,7 +3,7 @@
 ## Challenge description
     Claim ownership of the given instance
  
-## Terminolgies
+## Terminologies
    - **Method IDs** (function selectors) → are unique function identifiers used in contract function calls.
       - When a contract function is called, solidity compiler generates a four-byte method ID based on the function’s name and input parameters. used to identify the function.
       - In Soldity, the `Method Id` can be obtained by using the built-in `keccak256` function which calculates the SHA-3 hash of the input value which results to a 32-byte value. This can then be casted to `bytes4` to get the function’s Method ID (first 4 bytes).
@@ -14,4 +14,5 @@
          + address 
          + msg.sender
          + msg.value
-      
+## Weaknesses
+  
